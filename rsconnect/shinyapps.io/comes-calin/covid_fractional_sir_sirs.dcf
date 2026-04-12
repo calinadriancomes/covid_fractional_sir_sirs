@@ -1,0 +1,12 @@
+name: covid_fractional_sir_sirs
+title: covid_fractional_sir_sirs
+username: comes-calin
+account: comes-calin
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17112740
+bundleId: 11839193
+url: https://comes-calin.shinyapps.io/covid_fractional_sir_sirs/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
