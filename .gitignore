@@ -1,0 +1,30 @@
+# R session files
+.RData
+.Rhistory
+**/.RData
+**/.Rhistory
+
+# local backup of the processed data built before the date-parsing fix (not needed in the repo)
+data_processed_backup_misparsed_dates_20261030/
+
+# LaTeX build artefacts (sources, .bbl and the compiled PDF are tracked)
+manuscript/*.aux
+manuscript/*.log
+manuscript/*.out
+manuscript/*.blg
+manuscript/*.synctex.gz
+manuscript/manuscript_build.*
+
+# Python cache
+__pycache__/
+
+# working documents kept out of the public repository
+articol/
+# manuscript text (LaTeX sources, bibliography, compiled PDF); remove these lines to publish it
+manuscript/manuscript.tex
+manuscript/sections/
+manuscript/references.bib
+manuscript/manuscript.bbl
+manuscript/manuscript.pdf
+manuscript/Definitions/
+manuscript/build.ps1

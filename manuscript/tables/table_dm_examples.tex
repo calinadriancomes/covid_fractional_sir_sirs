@@ -1,0 +1,26 @@
+\begin{table}[H]
+\caption{Illustrative reporting units selected by a fixed rule from the full Diebold--Mariano output: for each model family, the 2 significant standard-model wins and the 2 significant fractional-model wins with the smallest $p$-values among units whose mean losses both exceed one squared case (this excludes series that are essentially zero over the evaluation window). Loss difference is mean standard loss minus mean fractional loss, so positive values favour the fractional model. The complete unit-level output is given in Supplementary Table S1.\label{tab:dm-examples}}
+\begin{adjustwidth}{-\extralength}{0cm}
+\footnotesize
+\begin{tabularx}{\fulllength}{llCCCCCCC}
+\toprule
+\textbf{Comparison} & \textbf{Reporting unit} & $\boldsymbol{n}$ & \textbf{DM} & $\boldsymbol{p}$\textbf{-value} & \textbf{Mean standard loss} & \textbf{Mean fractional loss} & \textbf{Loss difference} & \textbf{Lower-loss model}\\
+\midrule
+ARIMA vs. ARFIMA & Belarus & 229 & -51.354 & \mbox{$<10^{-16}$} & \mbox{$6.8 \times 10^{4}$} & \mbox{$9.4 \times 10^{5}$} & \mbox{$-8.7 \times 10^{5}$} & standard\\
+ARIMA vs. ARFIMA & Malta & 229 & -50.055 & \mbox{$<10^{-16}$} & \mbox{$1.1 \times 10^{4}$} & \mbox{$2.3 \times 10^{4}$} & \mbox{$-1.3 \times 10^{4}$} & standard\\
+ARIMA vs. ARFIMA & Kuwait & 229 & 63.792 & \mbox{$<10^{-16}$} & \mbox{$7.5 \times 10^{6}$} & \mbox{$2.0 \times 10^{6}$} & \mbox{$5.5 \times 10^{6}$} & fractional\\
+ARIMA vs. ARFIMA & Kosovo & 229 & 49.135 & \mbox{$<10^{-16}$} & \mbox{$2.0 \times 10^{6}$} & \mbox{$9.6 \times 10^{4}$} & \mbox{$1.9 \times 10^{6}$} & fractional\\
+\midrule
+RF vs. Fractional RF & New Zealand & 221 & -62.416 & \mbox{$<10^{-16}$} & \mbox{$4.9 \times 10^{7}$} & \mbox{$1.2 \times 10^{8}$} & \mbox{$-7.4 \times 10^{7}$} & standard\\
+RF vs. Fractional RF & Belarus & 221 & -20.049 & \mbox{$<10^{-16}$} & \mbox{$1.7 \times 10^{3}$} & \mbox{$4.6 \times 10^{4}$} & \mbox{$-4.4 \times 10^{4}$} & standard\\
+RF vs. Fractional RF & Oman & 221 & 107.389 & \mbox{$<10^{-16}$} & \mbox{$8.2 \times 10^{5}$} & \mbox{$3.5 \times 10^{5}$} & \mbox{$4.7 \times 10^{5}$} & fractional\\
+RF vs. Fractional RF & Kyrgyzstan & 221 & 20.476 & \mbox{$<10^{-16}$} & \mbox{$2.5 \times 10^{4}$} & \mbox{$1.7 \times 10^{4}$} & \mbox{$8.1 \times 10^{3}$} & fractional\\
+\midrule
+XGBoost vs. Fractional XGBoost & Venezuela & 221 & -18.195 & \mbox{$<10^{-16}$} & \mbox{$1.6 \times 10^{4}$} & \mbox{$1.1 \times 10^{5}$} & \mbox{$-9.9 \times 10^{4}$} & standard\\
+XGBoost vs. Fractional XGBoost & Sri Lanka & 221 & -12.829 & \mbox{$<10^{-16}$} & \mbox{$2.7 \times 10^{3}$} & \mbox{$2.0 \times 10^{4}$} & \mbox{$-1.8 \times 10^{4}$} & standard\\
+XGBoost vs. Fractional XGBoost & Oman & 221 & 47.789 & \mbox{$<10^{-16}$} & \mbox{$5.7 \times 10^{6}$} & \mbox{$2.0 \times 10^{5}$} & \mbox{$5.5 \times 10^{6}$} & fractional\\
+XGBoost vs. Fractional XGBoost & Thailand & 221 & 38.705 & \mbox{$<10^{-16}$} & \mbox{$2.7 \times 10^{6}$} & \mbox{$1.6 \times 10^{6}$} & \mbox{$1.2 \times 10^{6}$} & fractional\\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}

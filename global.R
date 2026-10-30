@@ -11,7 +11,37 @@ library(purrr)
 library(scales)
 library(htmltools)
 
-PROJECT_DIR <- normalizePath(getwd(), winslash = '/', mustWork = FALSE)
+# ------------------------------------------------------------
+# Project root, resolved in this order:
+#   1. the environment variable COVID_PROJECT_DIR, if set;
+#   2. the folder that contains this file when it is source()d
+#      (source("global.R") from app.R, source("../global.R") from scripts/);
+#   3. the current working directory (shiny::runApp() sets it to the app folder).
+# ------------------------------------------------------------
+.locate_project_dir <- function() {
+  env_dir <- Sys.getenv("COVID_PROJECT_DIR", unset = "")
+  if (nzchar(env_dir)) {
+    return(normalizePath(env_dir, winslash = "/", mustWork = TRUE))
+  }
+  for (fr in rev(sys.frames())) {
+    f <- fr$ofile
+    if (is.character(f) && length(f) == 1 && nzchar(f)) {
+      return(normalizePath(dirname(f), winslash = "/", mustWork = TRUE))
+    }
+  }
+  normalizePath(getwd(), winslash = "/", mustWork = TRUE)
+}
+
+PROJECT_DIR <- .locate_project_dir()
+
+if (!file.exists(file.path(PROJECT_DIR, "global.R")) || !dir.exists(file.path(PROJECT_DIR, "R"))) {
+  stop(
+    "Could not locate the project root (resolved to: ", PROJECT_DIR, ").
+",
+    "Run the app from the project folder, source global.R by its path, ",
+    "or set the environment variable COVID_PROJECT_DIR."
+  )
+}
 
 pfile <- function(...) {
   file.path(PROJECT_DIR, ...)

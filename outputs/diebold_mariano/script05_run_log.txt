@@ -1,0 +1,52 @@
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: 'DT'
+
+The following objects are masked from 'package:shiny':
+
+    dataTableOutput, renderDataTable
+
+Global environment loaded successfully.
+Project directory: C:/covid
+Standard dataset rows: 229743
+Fractional dataset rows: 229743
+Detected countries: 201
+Detected fractional features: 12
+Error in stats::arima(x = x, order = order, seasonal = seasonal, include.mean = include.mean,  : 
+  non-stationary AR part from CSS
+Warning message:
+In dplyr::left_join(world, map_df, by = "region") :
+  Detected an unexpected many-to-many relationship between `x` and `y`.
+ℹ Row 11 of `x` matches multiple rows in `y`.
+ℹ Row 1 of `y` matches multiple rows in `x`.
+ℹ If a many-to-many relationship is expected, set `relationship =
+  "many-to-many"` to silence this warning.
+Diebold-Mariano analysis completed and saved successfully.
+Latest RDS: C:/covid/outputs/diebold_mariano/diebold_mariano_latest.rds
+Latest country CSV: C:/covid/outputs/diebold_mariano/diebold_mariano_by_country_latest.csv
+Latest summary CSV: C:/covid/outputs/diebold_mariano/diebold_mariano_summary_latest.csv
+Latest errors CSV: C:/covid/outputs/diebold_mariano/diebold_mariano_errors_latest.csv
+Fractional dominance score table:
+                                     family countries_tested
+1                           ARIMA vs ARFIMA              201
+2 Random Forest vs Fractional Random Forest              192
+3             XGBoost vs Fractional XGBoost              192
+  significant_fractional_wins significant_standard_wins
+1                          67                       117
+2                          39                        68
+3                          53                        49
+  fractional_dominance_score dominance_label
+1                  0.3333333        standard
+2                  0.2031250        standard
+3                  0.2760417        standard
+EXIT CODE: 0

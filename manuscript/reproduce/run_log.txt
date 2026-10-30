@@ -1,0 +1,256 @@
+22:41:54 Step 01: aggregate JHU province rows to country level
+Saved: data_processed/covid_country_daily.rds
+22:42:07   country_daily: rows=229743 countries=201 dates=1143 range=2020-01-22 .. 2023-03-09
+22:42:07 Step 02: SIR proxies + standard ML features
+Saved: data_processed/covid_country_model_input.rds
+22:42:10 Step 03: fractional (Gruenwald-Letnikov) features
+Saved: data_processed/covid_country_fractional_features.rds
+22:42:16 Step 04: Romania ARIMA/ARFIMA comparison
+        Family RMSE_standard RMSE_fractional RMSE_improvement_pct MAE_standard
+1 ARIMA/ARFIMA      5007.564        3907.344             21.97116     4723.394
+  MAE_fractional MAE_improvement_pct MAPE_standard MAPE_fractional
+1       3732.017            20.98865      670.6193        548.4931
+  MAPE_improvement_pct
+1             18.21096
+Saved: ../data_processed/extended_model_comparison_romania.rds
+22:42:17   model input: rows=229743 range=2020-01-22 .. 2023-03-09 fractional features=12
+22:42:17 Step 05: Diebold-Mariano analysis (target t+7, train 0.80, min_obs 80, seed 123)
+22:42:18   [1/201] Afghanistan
+22:42:22   [2/201] Albania
+22:42:25   [3/201] Algeria
+22:42:30   [4/201] Andorra
+22:42:33   [5/201] Angola
+22:42:36   [6/201] Antarctica
+22:42:37   [7/201] Antigua and Barbuda
+22:42:39   [8/201] Argentina
+22:42:42   [9/201] Armenia
+22:42:45   [10/201] Australia
+22:42:48   [11/201] Austria
+22:42:51   [12/201] Azerbaijan
+22:42:54   [13/201] Bahamas
+22:42:57   [14/201] Bahrain
+22:42:59   [15/201] Bangladesh
+22:43:03   [16/201] Barbados
+22:43:06   [17/201] Belarus
+22:43:10   [18/201] Belgium
+22:43:14   [19/201] Belize
+22:43:17   [20/201] Benin
+22:43:21   [21/201] Bhutan
+22:43:24   [22/201] Bolivia
+22:43:28   [23/201] Bosnia and Herzegovina
+22:43:32   [24/201] Botswana
+22:43:35   [25/201] Brazil
+22:43:39   [26/201] Brunei
+22:43:42   [27/201] Bulgaria
+22:43:46   [28/201] Burkina Faso
+22:43:50   [29/201] Burma
+22:43:54   [30/201] Burundi
+22:43:57   [31/201] Cabo Verde
+22:44:01   [32/201] Cambodia
+22:44:04   [33/201] Cameroon
+22:44:08   [34/201] Canada
+22:44:12   [35/201] Central African Republic
+22:44:14   [36/201] Chad
+22:44:17   [37/201] Chile
+22:44:21   [38/201] China
+22:44:24   [39/201] Colombia
+22:44:28   [40/201] Comoros
+22:44:31   [41/201] Congo (Brazzaville)
+22:44:33   [42/201] Congo (Kinshasa)
+22:44:36   [43/201] Costa Rica
+22:44:39   [44/201] Cote d'Ivoire
+22:44:42   [45/201] Croatia
+22:44:45   [46/201] Cuba
+22:44:48   [47/201] Cyprus
+22:44:50   [48/201] Czechia
+22:44:54   [49/201] Denmark
+22:44:56   [50/201] Diamond Princess
+22:44:59   [51/201] Djibouti
+22:45:02   [52/201] Dominica
+22:45:05   [53/201] Dominican Republic
+22:45:09   [54/201] Ecuador
+22:45:12   [55/201] Egypt
+22:45:16   [56/201] El Salvador
+22:45:19   [57/201] Equatorial Guinea
+22:45:21   [58/201] Eritrea
+22:45:24   [59/201] Estonia
+22:45:27   [60/201] Eswatini
+22:45:29   [61/201] Ethiopia
+22:45:32   [62/201] Fiji
+22:45:34   [63/201] Finland
+22:45:37   [64/201] France
+22:45:40   [65/201] Gabon
+22:45:43   [66/201] Gambia
+22:45:45   [67/201] Georgia
+22:45:49   [68/201] Germany
+22:45:53   [69/201] Ghana
+22:45:57   [70/201] Greece
+22:46:00   [71/201] Grenada
+22:46:04   [72/201] Guatemala
+22:46:07   [73/201] Guinea
+22:46:10   [74/201] Guinea-Bissau
+22:46:14   [75/201] Guyana
+22:46:17   [76/201] Haiti
+22:46:20   [77/201] Holy See
+22:46:23   [78/201] Honduras
+22:46:26   [79/201] Hungary
+22:46:30   [80/201] Iceland
+22:46:34   [81/201] India
+22:46:38   [82/201] Indonesia
+22:46:42   [83/201] Iran
+22:46:47   [84/201] Iraq
+22:46:50   [85/201] Ireland
+22:46:54   [86/201] Israel
+22:46:57   [87/201] Italy
+22:47:01   [88/201] Jamaica
+22:47:05   [89/201] Japan
+Error in stats::arima(x = x, order = order, seasonal = seasonal, include.mean = include.mean,  : 
+  non-stationary AR part from CSS
+22:47:08   [90/201] Jordan
+22:47:12   [91/201] Kazakhstan
+22:47:16   [92/201] Kenya
+22:47:19   [93/201] Kiribati
+22:47:22   [94/201] Korea, North
+22:47:23   [95/201] Korea, South
+22:47:25   [96/201] Kosovo
+22:47:28   [97/201] Kuwait
+22:47:31   [98/201] Kyrgyzstan
+22:47:34   [99/201] Laos
+22:47:37   [100/201] Latvia
+22:47:40   [101/201] Lebanon
+22:47:43   [102/201] Lesotho
+22:47:45   [103/201] Liberia
+22:47:47   [104/201] Libya
+22:47:50   [105/201] Liechtenstein
+22:47:53   [106/201] Lithuania
+22:47:56   [107/201] Luxembourg
+22:47:59   [108/201] Madagascar
+22:48:01   [109/201] Malawi
+22:48:04   [110/201] Malaysia
+22:48:06   [111/201] Maldives
+22:48:08   [112/201] Mali
+22:48:12   [113/201] Malta
+22:48:15   [114/201] Marshall Islands
+22:48:18   [115/201] Mauritania
+22:48:21   [116/201] Mauritius
+22:48:24   [117/201] Mexico
+22:48:28   [118/201] Micronesia
+22:48:30   [119/201] Moldova
+22:48:34   [120/201] Monaco
+22:48:37   [121/201] Mongolia
+22:48:40   [122/201] Montenegro
+22:48:44   [123/201] Morocco
+22:48:48   [124/201] Mozambique
+22:48:51   [125/201] MS Zaandam
+22:48:52   [126/201] Namibia
+22:48:55   [127/201] Nauru
+22:48:57   [128/201] Nepal
+22:49:00   [129/201] Netherlands
+22:49:03   [130/201] New Zealand
+22:49:05   [131/201] Nicaragua
+22:49:08   [132/201] Niger
+22:49:10   [133/201] Nigeria
+22:49:13   [134/201] North Macedonia
+22:49:16   [135/201] Norway
+22:49:19   [136/201] Oman
+22:49:22   [137/201] Pakistan
+22:49:25   [138/201] Palau
+22:49:27   [139/201] Panama
+22:49:31   [140/201] Papua New Guinea
+22:49:34   [141/201] Paraguay
+22:49:38   [142/201] Peru
+22:49:41   [143/201] Philippines
+22:49:45   [144/201] Poland
+22:49:49   [145/201] Portugal
+22:49:52   [146/201] Qatar
+22:49:55   [147/201] Romania
+22:49:58   [148/201] Russia
+22:50:01   [149/201] Rwanda
+22:50:03   [150/201] Saint Kitts and Nevis
+22:50:05   [151/201] Saint Lucia
+22:50:07   [152/201] Saint Vincent and the Grenadines
+22:50:10   [153/201] Samoa
+22:50:12   [154/201] San Marino
+22:50:15   [155/201] Sao Tome and Principe
+22:50:17   [156/201] Saudi Arabia
+22:50:21   [157/201] Senegal
+22:50:25   [158/201] Serbia
+22:50:28   [159/201] Seychelles
+22:50:32   [160/201] Sierra Leone
+22:50:36   [161/201] Singapore
+22:50:38   [162/201] Slovakia
+22:50:42   [163/201] Slovenia
+22:50:45   [164/201] Solomon Islands
+22:50:48   [165/201] Somalia
+22:50:50   [166/201] South Africa
+22:50:53   [167/201] South Sudan
+22:50:57   [168/201] Spain
+22:51:00   [169/201] Sri Lanka
+22:51:03   [170/201] Sudan
+22:51:06   [171/201] Summer Olympics 2020
+22:51:08   [172/201] Suriname
+22:51:12   [173/201] Sweden
+22:51:16   [174/201] Switzerland
+22:51:19   [175/201] Syria
+22:51:23   [176/201] Taiwan*
+22:51:27   [177/201] Tajikistan
+22:51:29   [178/201] Tanzania
+22:51:32   [179/201] Thailand
+22:51:35   [180/201] Timor-Leste
+22:51:38   [181/201] Togo
+22:51:42   [182/201] Tonga
+22:51:45   [183/201] Trinidad and Tobago
+22:51:48   [184/201] Tunisia
+22:51:51   [185/201] Turkey
+22:51:54   [186/201] Tuvalu
+22:51:56   [187/201] Uganda
+22:52:00   [188/201] Ukraine
+22:52:05   [189/201] United Arab Emirates
+22:52:09   [190/201] United Kingdom
+22:52:12   [191/201] Uruguay
+22:52:16   [192/201] US
+22:52:19   [193/201] Uzbekistan
+22:52:22   [194/201] Vanuatu
+22:52:24   [195/201] Venezuela
+22:52:27   [196/201] Vietnam
+22:52:30   [197/201] West Bank and Gaza
+22:52:33   [198/201] Winter Olympics 2022
+22:52:35   [199/201] Yemen
+22:52:38   [200/201] Zambia
+22:52:41   [201/201] Zimbabwe
+Warning message:
+In dplyr::left_join(world, map_df, by = "region") :
+  Detected an unexpected many-to-many relationship between `x` and `y`.
+ℹ Row 11 of `x` matches multiple rows in `y`.
+ℹ Row 1 of `y` matches multiple rows in `x`.
+ℹ If a many-to-many relationship is expected, set `relationship =
+  "many-to-many"` to silence this warning.
+                                     family countries_tested
+1                           ARIMA vs ARFIMA              201
+2 Random Forest vs Fractional Random Forest              201
+3             XGBoost vs Fractional XGBoost              201
+  significant_dm_5pct standard_better fractional_better ties median_dm_p_value
+1                 184             127                74    0      1.305431e-33
+2                 107             122                78    1      2.908555e-02
+3                 102              95               106    0      2.005373e-02
+  mean_loss_diff dominant_model fractional_dominance_score dominance_label
+1    11030007919     fractional                  0.3333333        standard
+2       -2524315       standard                  0.2031250        standard
+3       16529514     fractional                  0.2760417        standard
+                                     family countries_tested
+1                           ARIMA vs ARFIMA              201
+2 Random Forest vs Fractional Random Forest              192
+3             XGBoost vs Fractional XGBoost              192
+  significant_fractional_wins significant_standard_wins
+1                          67                       117
+2                          39                        68
+3                          53                        49
+  fractional_dominance_score dominance_label
+1                  0.3333333        standard
+2                  0.2031250        standard
+3                  0.2760417        standard
+22:52:50   map ARIMA vs ARFIMA: units not matched to a map polygon = 22 (Antigua and Barbuda; Bosnia and Herz.; Burma; Congo (Brazzaville); Congo (Kinshasa); Diamond Princess; Dominican Rep.; Holy See; Korea, North; Korea, South; MS Zaandam; Macedonia; Saint Kitts and Nevis; Saint Vincent and the Grenadines; Summer Olympics 2020; Taiwan*; Trinidad and Tobago; Tuvalu; United Kingdom; US; West Bank and Gaza; Winter Olympics 2022)
+22:52:50   map Random Forest vs Fractional Random Forest: units not matched to a map polygon = 22 (Antigua and Barbuda; Bosnia and Herz.; Burma; Congo (Brazzaville); Congo (Kinshasa); Diamond Princess; Dominican Rep.; Holy See; Korea, North; Korea, South; MS Zaandam; Macedonia; Saint Kitts and Nevis; Saint Vincent and the Grenadines; Summer Olympics 2020; Taiwan*; Trinidad and Tobago; Tuvalu; United Kingdom; US; West Bank and Gaza; Winter Olympics 2022)
+22:52:50   map XGBoost vs Fractional XGBoost: units not matched to a map polygon = 22 (Antigua and Barbuda; Bosnia and Herz.; Burma; Congo (Brazzaville); Congo (Kinshasa); Diamond Princess; Dominican Rep.; Holy See; Korea, North; Korea, South; MS Zaandam; Macedonia; Saint Kitts and Nevis; Saint Vincent and the Grenadines; Summer Olympics 2020; Taiwan*; Trinidad and Tobago; Tuvalu; United Kingdom; US; West Bank and Gaza; Winter Olympics 2022)
+22:52:51 DONE in 10.9 min
+EXIT CODE: 0

@@ -407,13 +407,13 @@ normalize_country_for_world_map <- function(country) {
     "Cabo Verde" = "Cape Verde",
     "Timor-Leste" = "Timor-Leste",
     "Eswatini" = "Swaziland",
-    "North Macedonia" = "Macedonia",
+    "North Macedonia" = "North Macedonia",
     "Türkiye" = "Turkey",
     "Micronesia (Federated States of)" = "Micronesia",
     "Bolivia (Plurinational State of)" = "Bolivia",
     "Venezuela (Bolivarian Republic of)" = "Venezuela",
-    "Dominican Republic" = "Dominican Rep.",
-    "Bosnia and Herzegovina" = "Bosnia and Herz.",
+    "Dominican Republic" = "Dominican Republic",
+    "Bosnia and Herzegovina" = "Bosnia and Herzegovina",
     "The Bahamas" = "Bahamas",
     "Bahamas" = "Bahamas",
     "Gambia" = "Gambia",
@@ -421,7 +421,22 @@ normalize_country_for_world_map <- function(country) {
     "Cote d'Ivoire" = "Ivory Coast",
     "Curaçao" = "Curacao",
     "occupied Palestinian territory, including east Jerusalem" = "Palestine",
-    "State of Palestine" = "Palestine"
+    "State of Palestine" = "Palestine",
+    # JHU CSSE Country/Region labels -> maps::world region names
+    "US" = "USA",
+    "United Kingdom" = "UK",
+    "Korea, South" = "South Korea",
+    "Korea, North" = "North Korea",
+    "Taiwan*" = "Taiwan",
+    "Burma" = "Myanmar",
+    "Congo (Brazzaville)" = "Republic of Congo",
+    "Congo (Kinshasa)" = "Democratic Republic of the Congo",
+    "West Bank and Gaza" = "Palestine",
+    "Holy See" = "Vatican",
+    "Antigua and Barbuda" = "Antigua",
+    "Saint Kitts and Nevis" = "Saint Kitts",
+    "Saint Vincent and the Grenadines" = "Saint Vincent",
+    "Trinidad and Tobago" = "Trinidad"
   )
   out
 }

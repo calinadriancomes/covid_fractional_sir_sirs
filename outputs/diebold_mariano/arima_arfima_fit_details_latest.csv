@@ -1,0 +1,202 @@
+"country","arima_p","arima_d","arima_q","arfima_d","arfima_note","arfima_mean_fallback","rmse_arima","rmse_arfima"
+"Afghanistan",5,1,2,0.00049425088231155,"unable to compute correlation matrix; maybe change 'h'",FALSE,103.68437024829,126.988893458912
+"Albania",1,1,1,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,1208.93737276436,532.117921362032
+"Algeria",3,1,3,0.355736742880262,"unable to compute correlation matrix; maybe change 'h'",FALSE,70.1490970422763,211.706656995837
+"Andorra",2,1,3,0.487981130805788,"OK",FALSE,74.5078023048201,63.7898033982818
+"Angola",5,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,99.2292974827488,136.186392005092
+"Antarctica",0,0,0,4.58301292387754e-05,"fracdiff(1,1) did not converge cleanly; fallback fracdiff(0,0) was used.",FALSE,0,0.0120483769110767
+"Antigua and Barbuda",1,1,3,0.484058390413063,"OK",FALSE,8.9407826177926,12.3351609240982
+"Argentina",5,1,5,0.466394456952376,"unable to compute correlation matrix; maybe change 'h'",FALSE,10163.4253160065,11971.8694156149
+"Armenia",2,1,2,0.493922249661859,"OK",FALSE,400.128562511622,451.649808764848
+"Australia",0,1,1,0.272477790867824,"unable to compute correlation matrix; maybe change 'h'",FALSE,36458.5569134881,15308.4432981817
+"Austria",5,1,3,0.190397075432654,"unable to compute correlation matrix; maybe change 'h'",FALSE,9179.09273889998,5259.93460361405
+"Azerbaijan",3,1,5,0.0272010442418657,"OK",FALSE,535.317695473929,742.163181536969
+"Bahamas",1,1,2,0.492730916738455,"OK",FALSE,25.2716253510469,37.5452706273685
+"Bahrain",1,1,4,0.312097245201757,"OK",FALSE,373.214301746335,517.468585178225
+"Bangladesh",5,1,5,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,507.211895407215,1512.66337908605
+"Barbados",1,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,373.782319424375,234.736481620993
+"Belarus",5,1,2,0.299180680291163,"unable to compute correlation matrix; maybe change 'h'",FALSE,260.23209457774,969.623220790873
+"Belgium",5,1,4,0.493726490295448,"OK",FALSE,3409.85304736438,4631.86495659295
+"Belize",5,1,2,0.312374859038274,"OK",FALSE,80.0153695740223,92.8423881764172
+"Benin",4,1,5,0.482551073079422,"OK",FALSE,20.6192693956436,26.2503610252509
+"Bhutan",2,1,1,0.201111585722423,"unable to compute correlation matrix; maybe change 'h'",FALSE,42.4869340723365,73.231166894573
+"Bolivia",2,1,3,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,6384.47093400805,1809.00649432553
+"Bosnia and Herzegovina",5,1,5,0.330670121003901,"OK",FALSE,301.870490244713,349.985560328322
+"Botswana",4,1,1,0.305836187475006,"OK",FALSE,344.153766407215,377.496512104122
+"Brazil",5,1,2,0.450362532495226,"OK",FALSE,25294.2481608902,30771.5853640075
+"Brunei",2,1,3,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,1203.58792650502,1088.09388168193
+"Bulgaria",5,1,2,0.276980626153988,"OK",FALSE,1220.7429168873,1349.13460994252
+"Burkina Faso",3,1,4,0.489832999336316,"OK",FALSE,41.3672646984929,42.5496128492153
+"Burma",4,1,2,0.199896342004061,"unable to compute correlation matrix; maybe change 'h'",FALSE,196.293744240767,385.550842602278
+"Burundi",0,1,2,0.442341657560518,"OK",FALSE,133.668531824902,132.399068323507
+"Cabo Verde",5,1,4,0.180326719834327,"unable to compute correlation matrix; maybe change 'h'",FALSE,29.1785878791376,60.4357293235084
+"Cambodia",2,1,5,0.444547835081558,"unable to compute correlation matrix; maybe change 'h'",FALSE,13.6883543160383,87.1547603768077
+"Cameroon",0,1,5,0.422208368189763,"OK",FALSE,150.747092222298,173.005627668465
+"Canada",2,1,3,0.0424101248171048,"unable to compute correlation matrix; maybe change 'h'",FALSE,4291.87149937758,3740.12408317373
+"Central African Republic",0,0,0,0.0742092089642485,"OK",FALSE,20.3360689173882,20.1061787013049
+"Chad",3,0,3,0.423793010169245,"OK",FALSE,7.79251872672816,6.13251889068492
+"Chile",5,1,5,0.371909224812364,"OK",FALSE,4037.71643106301,2858.87040787323
+"China",3,1,2,0.247401699767864,"unable to compute correlation matrix; maybe change 'h'",FALSE,14263.9464096811,15827.4642992876
+"Colombia",0,1,2,0.188971419955371,"unable to compute correlation matrix; maybe change 'h'",FALSE,3602.66757041961,5678.70798607705
+"Comoros",4,0,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,17.529398087408,17.3869752904844
+"Congo (Brazzaville)",3,1,4,0.444845974631794,"OK",FALSE,28.9936157039747,34.7709222830421
+"Congo (Kinshasa)",1,1,4,0.488187799351278,"OK",FALSE,57.5707196627607,84.7352861287688
+"Costa Rica",4,1,4,0.483411693383319,"OK",FALSE,14225.7115577313,3668.07639731657
+"Cote d'Ivoire",4,0,1,0.340528668633161,"unable to compute correlation matrix; maybe change 'h'",FALSE,80.0912095040124,79.0782010689705
+"Croatia",5,1,5,0.446687988941038,"OK",FALSE,994.351627190806,1052.81975516015
+"Cuba",5,1,5,0.209180910624881,"unable to compute correlation matrix; maybe change 'h'",FALSE,137.498471625752,661.805042591705
+"Cyprus",5,1,3,0.492157616421513,"OK",FALSE,1498.11702935704,1398.27964539495
+"Czechia",5,1,4,0.175595379745956,"unable to compute correlation matrix; maybe change 'h'",FALSE,2496.55432952168,3682.70264948213
+"Denmark",0,1,2,0.245523537532618,"unable to compute correlation matrix; maybe change 'h'",FALSE,1147.79154773631,2405.85022431208
+"Diamond Princess",0,1,1,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,0,0.768433255026729
+"Djibouti",3,0,5,0.0428400387226173,"unable to compute correlation matrix; maybe change 'h'",FALSE,16.3079032989041,14.6544342257335
+"Dominica",2,1,3,0.482695323282327,"unable to compute correlation matrix; maybe change 'h'",FALSE,59.1589174314067,60.2691610787277
+"Dominican Republic",2,1,2,0.103869857389694,"unable to compute correlation matrix; maybe change 'h'",FALSE,459.337491500544,689.552600050194
+"Ecuador",0,1,5,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,2578.35191050605,1807.56967596002
+"Egypt",2,1,4,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,4.75881287214407,377.165080700732
+"El Salvador",5,1,2,0.385692233546006,"OK",FALSE,1012.05715230246,975.706418104895
+"Equatorial Guinea",1,0,2,0.244381441230321,"OK",FALSE,17.8711606229215,17.2991986329642
+"Eritrea",5,1,2,0.489048869787879,"OK",FALSE,8.69011318431387,9.96322186522625
+"Estonia",3,1,3,0.315208474153785,"OK",FALSE,474.904005422304,616.803510048639
+"Eswatini",3,1,2,0.481589642878714,"unable to compute correlation matrix; maybe change 'h'",FALSE,15.7976861269273,68.9458257767575
+"Ethiopia",5,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,77.7864701593576,358.269596001997
+"Fiji",0,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,52.8269665163994,61.7066312051903
+"Finland",5,1,4,0.491561862474391,"OK",FALSE,4706.63911630472,4414.59874420194
+"France",4,1,2,0.0841495701965119,"unable to compute correlation matrix; maybe change 'h'",FALSE,85380.0220996281,47084.839456502
+"Gabon",4,1,5,0.48929536563565,"OK",FALSE,25.6147490803116,49.196056809427
+"Gambia",3,0,4,0.487675628587491,"OK",FALSE,18.7467221730819,18.1851723057788
+"Georgia",5,1,5,0.173882276576841,"unable to compute correlation matrix; maybe change 'h'",FALSE,3278.27494119951,3278.77408808719
+"Germany",3,1,5,0.280917292424278,"OK",FALSE,76498.39376276,45016.9973678192
+"Ghana",1,0,4,0.492118685107729,"OK",FALSE,164.615798232388,163.586037290759
+"Greece",1,1,3,0.482714415262408,"OK",FALSE,33921.609951605,20473.5711856932
+"Grenada",5,1,5,0.495344891762333,"OK",FALSE,15.2220690229251,24.1954642186172
+"Guatemala",3,1,2,0.374319810727418,"OK",FALSE,4330.82030367625,1657.75892288567
+"Guinea",3,1,2,0.489817141617209,"OK",FALSE,22.7021379199477,40.7881190937146
+"Guinea-Bissau",3,0,3,0.488616731791699,"unable to compute correlation matrix; maybe change 'h'",FALSE,22.3078669762285,22.2238336875412
+"Guyana",0,1,1,0.0876510289985094,"unable to compute correlation matrix; maybe change 'h'",FALSE,73.6387790316626,69.8805010888046
+"Haiti",1,0,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,31.9210867447895,32.8830417404595
+"Holy See",5,0,3,0.343205317094587,"OK",FALSE,0.0315317406698873,0.023982378166002
+"Honduras",1,1,3,0.484979373466451,"OK",FALSE,538.308235988968,494.632723687895
+"Hungary",2,1,4,0.495521716944942,"OK",FALSE,3687.30436733754,3549.15553557648
+"Iceland",5,1,4,0.266731548460561,"OK",FALSE,163.356519850309,205.891269215343
+"India",4,1,3,0.16085357560387,"unable to compute correlation matrix; maybe change 'h'",FALSE,15290.1212902611,36557.5339881113
+"Indonesia",0,1,2,0.495800362729702,"OK",FALSE,3299.20871867313,4601.0419293281
+"Iran",5,1,5,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,6931.43536244235,6735.27550679082
+"Iraq",2,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,2521.69972727569,2535.3558058219
+"Ireland",3,1,4,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,1726.34218690424,2059.31543264087
+"Israel",4,1,4,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,5101.46424716164,5989.1133333919
+"Italy",5,1,4,0.165778780646923,"unable to compute correlation matrix; maybe change 'h'",FALSE,61442.8716222942,40799.4241609527
+"Jamaica",3,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,119.727499656662,134.900393742144
+"Japan",5,2,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,1569709.08266191,515661.875979017
+"Jordan",5,1,2,0.130124985408855,"unable to compute correlation matrix; maybe change 'h'",FALSE,861.63238673457,1675.57474532976
+"Kazakhstan",4,1,4,0.493848162500042,"OK",FALSE,2069.33441597626,1625.33761621882
+"Kenya",5,1,5,0.492336494447671,"unable to compute correlation matrix; maybe change 'h'",FALSE,48.826701257838,252.424818451171
+"Kiribati",5,1,4,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,100.353811718039,98.621582234577
+"Korea, North",0,0,0,4.58301292387754e-05,"fracdiff(1,1) did not converge cleanly; fallback fracdiff(0,0) was used.",FALSE,0,0.00109545440775215
+"Korea, South",1,1,3,0.345797190107778,"unable to compute correlation matrix; maybe change 'h'",FALSE,64483.7037081891,34958.4249395944
+"Kosovo",1,1,5,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,1425.18242794864,310.270124955451
+"Kuwait",2,1,5,0.173824462406192,"unable to compute correlation matrix; maybe change 'h'",FALSE,2738.79361730435,1410.50353097963
+"Kyrgyzstan",1,1,2,0.288703870100426,"OK",FALSE,117.026071326913,229.799082134119
+"Laos",0,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,41.4756499383766,215.014098104105
+"Latvia",2,1,2,0.389481807906868,"unable to compute correlation matrix; maybe change 'h'",FALSE,1078.58222514589,806.935688075282
+"Lebanon",4,1,2,0.383361172328083,"unable to compute correlation matrix; maybe change 'h'",FALSE,1947.01407830397,1580.45762626202
+"Lesotho",1,0,1,0.171226019818722,"OK",FALSE,42.0650848001097,42.2884907370151
+"Liberia",2,0,2,0.485525242044329,"OK",FALSE,12.4565273788509,11.6540266340592
+"Libya",3,1,5,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,110.644763787997,441.588392597874
+"Liechtenstein",2,1,4,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,22.2793852973773,21.3993867212812
+"Lithuania",5,1,5,0.495057526853046,"OK",FALSE,726.137703573544,1107.61646165701
+"Luxembourg",5,1,5,0.49388157698985,"OK",FALSE,455.937332889093,393.721498384618
+"Madagascar",2,0,2,0.489568322285234,"OK",FALSE,66.5791439078256,58.1184312809978
+"Malawi",2,1,4,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,24.2114720646651,62.6430200203499
+"Malaysia",2,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,3258.17517768153,3547.8048256307
+"Maldives",1,1,2,0.123089868125767,"unable to compute correlation matrix; maybe change 'h'",FALSE,72.8721900354363,150.129581148887
+"Mali",2,1,3,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,20.0000245852228,29.3003654041513
+"Malta",2,1,5,0.255944817804352,"unable to compute correlation matrix; maybe change 'h'",FALSE,102.912223880717,152.639985595312
+"Marshall Islands",5,1,4,0.345517127728442,"OK",FALSE,336.407827791642,336.485522551991
+"Mauritania",0,1,0,0.110003045404157,"unable to compute correlation matrix; maybe change 'h'",FALSE,44.7863925841174,63.4829784110727
+"Mauritius",2,1,4,0.455657023740666,"OK",FALSE,828.89805310254,835.435152641705
+"Mexico",2,1,4,0.365787947454624,"OK",FALSE,24680.3563989335,11786.8995100916
+"Micronesia",0,1,5,0.498447189992429,"OK",FALSE,397.194114326228,402.890467298207
+"Moldova",5,1,4,0.483660254301316,"OK",FALSE,1377.98360967253,1412.38275060019
+"Monaco",2,1,5,0.489787436981555,"OK",FALSE,26.3331063612024,22.2863076073435
+"Mongolia",2,1,1,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,1154.80660432854,1346.06634989993
+"Montenegro",0,1,1,0.259312451923487,"unable to compute correlation matrix; maybe change 'h'",FALSE,797.026070201103,371.3381130754
+"Morocco",2,1,2,0.496593699704699,"OK",FALSE,730.53520148191,1137.84547012998
+"Mozambique",5,1,5,0.487886273377057,"OK",FALSE,82.4263947479128,174.498277508647
+"MS Zaandam",4,0,0,0.160022811177088,"OK",FALSE,0,0.00980268699110782
+"Namibia",5,1,3,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,79.5369433599907,136.226067824414
+"Nauru",3,1,5,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,29.3163422217384,30.8453575128022
+"Nepal",5,1,3,0.259676084957756,"unable to compute correlation matrix; maybe change 'h'",FALSE,259.336464383958,643.971321391418
+"Netherlands",2,1,3,7.91282767893747e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,3381.68459698512,7395.61565636146
+"New Zealand",1,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,8564.25655108922,7169.95720411194
+"Nicaragua",5,1,4,0.463637003519119,"unable to compute correlation matrix; maybe change 'h'",FALSE,11.7324545618114,13.6969142646063
+"Niger",3,0,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,10.0350757094228,10.2017126751129
+"Nigeria",0,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,220.600976416457,251.437898137649
+"North Macedonia",5,1,2,0.208875904349224,"unable to compute correlation matrix; maybe change 'h'",FALSE,518.872391337537,422.739083836463
+"Norway",5,1,3,0.494721673252328,"OK",FALSE,145.586080148538,1332.68685237597
+"Oman",5,0,3,0.262575082590125,"OK",FALSE,397.567415858405,399.462198393882
+"Pakistan",2,1,5,0.087848318442138,"unable to compute correlation matrix; maybe change 'h'",FALSE,694.196399352814,1553.97694718313
+"Palau",5,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,13.8963945343796,14.2643486836162
+"Panama",4,1,5,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,1549.34403619024,1509.96694833096
+"Papua New Guinea",1,1,3,0.487713996869595,"OK",FALSE,25.0705994651977,41.4939271221966
+"Paraguay",2,1,5,0.489356881873897,"unable to compute correlation matrix; maybe change 'h'",FALSE,4269.71676163746,4072.49929705765
+"Peru",5,0,3,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,6485.40431833281,6210.07708119876
+"Philippines",1,1,1,0.111132552506146,"unable to compute correlation matrix; maybe change 'h'",FALSE,2482.70262422436,2916.04659284213
+"Poland",5,1,3,0.495459697137175,"OK",FALSE,2166.65403544702,4097.61034635635
+"Portugal",5,1,4,0.152452437021523,"unable to compute correlation matrix; maybe change 'h'",FALSE,5311.86690188807,4730.92907902847
+"Qatar",2,0,2,0.365496724629889,"unable to compute correlation matrix; maybe change 'h'",FALSE,321.514607158448,323.994898903194
+"Romania",5,1,2,0.489776034780928,"OK",FALSE,5007.56423404588,3907.3443189555
+"Russia",2,1,5,0.239624874882146,"unable to compute correlation matrix; maybe change 'h'",FALSE,18516.9865630558,17214.7358230614
+"Rwanda",2,1,3,0.274316031318723,"unable to compute correlation matrix; maybe change 'h'",FALSE,25.0510447686796,104.37455118852
+"Saint Kitts and Nevis",0,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,5.74424689454232,7.15950028813216
+"Saint Lucia",0,1,1,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,43.0682712987286,47.1983699079277
+"Saint Vincent and the Grenadines",5,1,0,0.188864946189469,"OK",FALSE,13.5464497164555,11.8123926995196
+"Samoa",4,1,4,0.486428637771712,"OK",FALSE,32.4436758736051,35.0264597855498
+"San Marino",3,1,5,0.493583517371063,"OK",FALSE,52.6362101354117,44.0931508122546
+"Sao Tome and Principe",2,0,5,0.374435540927462,"OK",FALSE,6.57684540551943,6.65028982415747
+"Saudi Arabia",3,0,3,0.103100211097381,"unable to compute correlation matrix; maybe change 'h'",FALSE,644.309595846384,632.742131145064
+"Senegal",5,1,3,0.416980528869806,"unable to compute correlation matrix; maybe change 'h'",FALSE,23.1551387466382,78.6353661379798
+"Serbia",1,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,3978.40561316067,1975.54053449582
+"Seychelles",5,1,5,0.489316169576583,"unable to compute correlation matrix; maybe change 'h'",FALSE,117.746705342586,117.900580478396
+"Sierra Leone",1,0,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,7.7521358978318,7.74681599351884
+"Singapore",1,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,8044.14742472602,4066.20725338553
+"Slovakia",5,1,5,0.330720433471082,"OK",FALSE,2351.10780820865,3132.54569079891
+"Slovenia",5,1,2,0.322768221718181,"unable to compute correlation matrix; maybe change 'h'",FALSE,1114.77218140352,981.74154916376
+"Solomon Islands",0,1,1,0.429997107270112,"OK",FALSE,179.367985427474,178.845194801542
+"Somalia",1,1,2,0.478549975561057,"OK",FALSE,12.9843169129563,27.6749615296693
+"South Africa",5,1,2,0.411433910730298,"unable to compute correlation matrix; maybe change 'h'",FALSE,304.06997049281,2466.55310978314
+"South Sudan",5,0,5,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,36.5442286483459,36.2141130080756
+"Spain",5,1,5,0.494693574069652,"OK",FALSE,16472.196257865,14330.681374822
+"Sri Lanka",0,1,5,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,75.6304196563464,456.342952122641
+"Sudan",1,0,1,0.482678466053807,"OK",FALSE,56.9608136673375,48.0960425701223
+"Summer Olympics 2020",3,1,1,0.489420786257082,"OK",FALSE,5.6637277075709e-36,0.816626390720838
+"Suriname",4,1,5,0.152499500299709,"unable to compute correlation matrix; maybe change 'h'",FALSE,42.520889731169,71.2881250800202
+"Sweden",5,1,2,0.489356881873897,"OK",FALSE,2125.01033563361,2542.5949663011
+"Switzerland",5,1,4,0.494333104827064,"OK",FALSE,7283.27344089673,6926.40191644479
+"Syria",5,1,3,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,14.6562003704734,46.444139395866
+"Taiwan*",5,1,5,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,12003.1518990737,13631.0253611225
+"Tajikistan",3,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,5.53557507309326e-07,16.9947161255179
+"Tanzania",0,0,0,4.58301292387754e-05,"fracdiff(1,1) did not converge cleanly; fallback fracdiff(0,0) was used.",FALSE,102.457449830493,102.457625103168
+"Thailand",0,1,2,0.0307845799960243,"OK",FALSE,2316.29034320076,3856.67019580649
+"Timor-Leste",2,1,3,0.0200766452436785,"unable to compute correlation matrix; maybe change 'h'",FALSE,3.34489773376754,18.3034486601772
+"Togo",4,1,2,0.497855553541672,"OK",FALSE,17.1841796420608,29.8795009027009
+"Tonga",4,1,5,0.495841824349919,"OK",FALSE,93.7278428156547,93.7285694799686
+"Trinidad and Tobago",4,1,2,0.0873864364621384,"unable to compute correlation matrix; maybe change 'h'",FALSE,152.070046017404,165.427651079716
+"Tunisia",5,1,3,0.492326703431611,"OK",FALSE,4277.81051918955,1769.30364960349
+"Turkey",0,1,1,0.484371711122629,"OK",FALSE,44831.8222640042,42896.4532323281
+"Tuvalu",5,1,1,0.0672751251426903,"OK",FALSE,76.5257251971969,76.5350217715523
+"Uganda",0,1,1,0.347984058904563,"OK",FALSE,51.4683230007234,159.215347597467
+"Ukraine",4,1,2,0.493820681122192,"OK",FALSE,7285.53192732257,7496.82984480412
+"United Arab Emirates",2,1,5,0.139902626151522,"unable to compute correlation matrix; maybe change 'h'",FALSE,1064.02691116815,882.55955707596
+"United Kingdom",0,1,1,4.27695185960581e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,21328.6414238203,26768.2150771381
+"Uruguay",5,1,2,0.0561498556456753,"OK",FALSE,1049.17356178973,1257.71043415593
+"US",2,1,2,0.142175259579724,"OK",FALSE,90380.8424642467,64396.8654787427
+"Uzbekistan",1,1,3,0.0412129633386395,"unable to compute correlation matrix; maybe change 'h'",FALSE,72.3419564804553,156.686575300304
+"Vanuatu",2,1,3,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,5.85309555232288,22.3582791912778
+"Venezuela",3,1,4,0.496710886756857,"OK",FALSE,280.019957234021,484.537922131263
+"Vietnam",1,1,2,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,28527.1203306413,30073.558581554
+"West Bank and Gaza",5,1,5,0.0367924516515806,"unable to compute correlation matrix; maybe change 'h'",FALSE,1357.00852943196,1172.08215422262
+"Winter Olympics 2022",4,1,4,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,0.0107351556174742,0.571763165602141
+"Yemen",4,1,3,0.138780024593031,"unable to compute correlation matrix; maybe change 'h'",FALSE,2.49269008344392,12.1323447155532
+"Zambia",2,1,2,0.493530022582358,"OK",FALSE,167.200844892146,257.319313232551
+"Zimbabwe",5,1,4,4.58301292387754e-05,"unable to compute correlation matrix; maybe change 'h'",FALSE,162.456011113018,269.814356304584

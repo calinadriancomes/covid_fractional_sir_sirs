@@ -1,4 +1,4 @@
 "family","countries_tested","significant_fractional_wins","significant_standard_wins","fractional_dominance_score","dominance_label"
-"ARIMA vs ARFIMA",201,83,98,0.412935323383085,"standard"
-"Random Forest vs Fractional Random Forest",197,19,34,0.0964467005076142,"standard"
-"XGBoost vs Fractional XGBoost",197,22,37,0.111675126903553,"standard"
+"ARIMA vs ARFIMA",201,67,117,0.333333333333333,"standard"
+"Random Forest vs Fractional Random Forest",192,39,68,0.203125,"standard"
+"XGBoost vs Fractional XGBoost",192,53,49,0.276041666666667,"standard"

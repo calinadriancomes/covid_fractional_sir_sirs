@@ -1,4 +1,0 @@
-"family","countries_tested","significant_dm_5pct","standard_better","fractional_better","ties","median_dm_p_value","mean_loss_diff","dominant_model","fractional_dominance_score","dominance_label"
-"ARIMA vs ARFIMA",201,181,113,88,0,2.08135111529455e-19,-818225439.731288,"standard",0.412935323383085,"standard"
-"Random Forest vs Fractional Random Forest",201,53,115,86,0,0.180635959009141,-19912028093.2209,"standard",0.0964467005076142,"standard"
-"XGBoost vs Fractional XGBoost",201,59,121,80,0,0.192436364661887,-134912842505.853,"standard",0.111675126903553,"standard"

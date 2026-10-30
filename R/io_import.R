@@ -1,5 +1,23 @@
 # R/io_import.R
 
+# Parse JHU column dates robustly. The original JHU files use "m/d/yy", but
+# files re-saved through spreadsheet software carry "m/d/yyyy". Parsing a
+# 4-digit year with "%y" silently keeps only the first two digits (all years
+# collapse into 2020), so the year token is handled explicitly here.
+parse_jhu_date <- function(x) {
+  parts <- strsplit(as.character(x), "/", fixed = TRUE)
+  m <- as.integer(vapply(parts, `[`, character(1), 1))
+  d <- as.integer(vapply(parts, `[`, character(1), 2))
+  y_chr <- vapply(parts, `[`, character(1), 3)
+  y <- as.integer(y_chr)
+  y <- ifelse(nchar(y_chr) <= 2, 2000L + y, y)
+  out <- as.Date(sprintf("%04d-%02d-%02d", y, m, d))
+  if (anyNA(out)) {
+    stop("Unparseable JHU date columns: ", paste(head(x[is.na(out)], 5), collapse = ", "))
+  }
+  out
+}
+
 read_jhu_timeseries <- function(path, value_name) {
   df <- read.csv(path, check.names = FALSE, stringsAsFactors = FALSE)
 
@@ -13,7 +31,13 @@ read_jhu_timeseries <- function(path, value_name) {
     values_to = value_name
   )
 
-  long_df$date <- as.Date(long_df$date_chr, format = "%m/%d/%y")
+  long_df$date <- parse_jhu_date(long_df$date_chr)
+
+  n_unique_dates <- length(unique(long_df$date))
+  if (n_unique_dates != length(date_cols)) {
+    stop("Date parsing collapsed ", length(date_cols), " date columns into ",
+         n_unique_dates, " unique dates. Check the header format of: ", path)
+  }
 
   long_df |>
     dplyr::rename(
