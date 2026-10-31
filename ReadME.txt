@@ -40,4 +40,3 @@ Version v6.1 adds hover-enabled interactive Diebold–Mariano heatmaps, automati
 - Fixed the JHU date parser in R/io_import.R: files with four-digit years ("1/22/2020") were read with "%m/%d/%y", which collapsed 2020-2023 into one calendar year and summed cumulative counts across years. The parser now handles both formats and stops if date columns collapse.
 - Fixed the JHU-to-map country name recoding used by the Diebold-Mariano maps (US, United Kingdom, Korea, Taiwan*, Burma, both Congos, Bosnia and Herzegovina, Dominican Republic, North Macedonia, West Bank and Gaza, Holy See, multi-island states).
 - Removed hard-coded project paths from global.R and scripts/05_run_diebold_mariano.R (see "Project root" above); R/sir_classic.r renamed to R/sir_classic.R to match the file list in global.R.
-- manuscript/ contains the MDPI Mathematics LaTeX manuscript and the reproduction scripts for its tables and figures.

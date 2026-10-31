@@ -20,11 +20,4 @@ __pycache__/
 
 # working documents kept out of the public repository
 articol/
-# manuscript text (LaTeX sources, bibliography, compiled PDF); remove these lines to publish it
-manuscript/manuscript.tex
-manuscript/sections/
-manuscript/references.bib
-manuscript/manuscript.bbl
-manuscript/manuscript.pdf
-manuscript/Definitions/
-manuscript/build.ps1
+manuscript/
